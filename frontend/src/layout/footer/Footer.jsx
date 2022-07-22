@@ -8,7 +8,7 @@ const Footer = () => {
         <div className="footer-container">
             <div className="footer">
                 <Logo color="white" />
-                <div className="slogan">Living, Learning, & Improving</div>
+                <div className="slogan">Living, Learning & Improving</div>
                 <div className="social">
                     <a href="https://www.linkedin.com/in/sadiq-odunsi-393397139" target="_blank" rel="noreferrer" className="linkedin">
                         <FontAwesomeIcon className="icon" icon={faLinkedinIn} />

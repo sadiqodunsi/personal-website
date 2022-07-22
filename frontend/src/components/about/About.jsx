@@ -10,7 +10,7 @@ const About = () => {
         <div className="about-me">
             <div className="intro">
                 <div className="title">Hi, I'm Sadiq. Nice to meet you.</div>
-                <div className="desc">I'm a full stack web developer with 4 years of experience. I have an extensive knowledge in building WordPress websites as well as building websites from scratch using different tech stacks. My business background enables me to build customer centeric websites that are easy to use and maintain.</div>
+                <div className="desc">I'm a full stack web developer with 4 years of experience. I have an extensive knowledge in building WordPress websites as well as building websites from scratch using different tech stacks. My business background enables me to build customer centric websites that are easy to use and maintain.</div>
             </div>
         </div>
         <div className="knowhow-container">
