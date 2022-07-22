@@ -16,7 +16,9 @@ Open terminal and run the following commands:
 
 Go to [http://localhost:3000/](http://localhost:3000/) to view the app.
 
-### To send email with the contact form, create a .env file in the backend folder with the following info:
+### Sending emails with the contact form
+
+To send emails with the contact form, create a .env file in the backend folder with the following info:
 
 ```
 PORT = 3000 // Or any other port
