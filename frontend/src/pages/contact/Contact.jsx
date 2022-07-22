@@ -56,7 +56,7 @@ const Contact = () => {
     e.preventDefault();
     const formData = new FormData( e.target );
     setLoading( true );
-    fetch( "http://localhost:3000/contact", {
+    fetch( `${process.env.REACT_APP_SITE_URL}/contact`, {
         headers: {
             'Content-Type': 'application/json',
         },

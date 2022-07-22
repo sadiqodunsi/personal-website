@@ -19,7 +19,8 @@ Go to [http://localhost:3000/](http://localhost:3000/) to view the app.
 Add a .env file to the root of the frontend folder with the following info:
 
 ```
-REACT_APP_SITE_TITLE = // Your site title
+REACT_APP_SITE_TITLE = // Your website title
+REACT_APP_SITE_URL = // Your website url
 ```
 
 ### To send email with the contact form, create a .env file in the backend folder with the following info:

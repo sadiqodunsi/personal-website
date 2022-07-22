@@ -11,10 +11,6 @@ app.use(express.urlencoded({ extended: false}));
 
 app.use(express.static(path.join(__dirname, '../frontend/build')));
 
-app.get('/*', function (req, res) {
-    res.sendFile(path.join(__dirname, '../frontend/build', 'index.html'));
-});
-
 app.post('/contact', (req, res) => {
     const name = req.body.name;
     const email = req.body.email;
@@ -65,6 +61,10 @@ app.post('/contact', (req, res) => {
             res.json('Message sent successfully.');
         }
     });
+});
+
+app.get('/*', function (req, res) {
+    res.sendFile(path.join(__dirname, '../frontend/build', 'index.html'));
 });
 
 const PORT = process.env.PORT || 3000;
