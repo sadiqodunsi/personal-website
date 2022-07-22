@@ -1,0 +1,16 @@
+.contact-form .field {
+    width: 100%;
+    margin-bottom: 20px;
+}
+.field div {
+    color: red;
+    display: none;
+    font-size: .9em;
+}
+input:invalid[focused="true"], textarea:invalid[focused="true"] {
+    border: 1px solid red;
+}
+
+input:invalid[focused="true"] ~ div, textarea:invalid[focused="true"] ~ div {
+    display: block;
+}

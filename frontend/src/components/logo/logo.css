@@ -1,0 +1,14 @@
+.site-logo {
+    display: inline-block;
+    border: 5px solid #6b6bc3;
+    border-radius: 10px;
+    padding: 5px 15px;
+    color: #6b6bc3;
+    font-weight: 700;
+    font-size: 20px;
+    text-decoration: none;
+}
+.site-logo.white {
+    border: 5px solid #fff;
+    color: #fff;
+}

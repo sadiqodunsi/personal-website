@@ -1,0 +1,30 @@
+.nav-container {
+    display: flex;
+    height: 100px;
+    margin: 0 20px;
+}
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    max-width: 1024px;
+    margin: auto;
+}
+.nav-pages {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+.navbar .contact {
+    border: 2px solid #6b6bc3;
+    border-radius: 20px;
+    padding: 9px 18px;
+    line-height: 1.4;
+    color: #6b6bc3;
+    font-weight: 400;
+}
+.navbar .contact:hover {
+    background-color: #6b6bc3;
+    color: #fff;
+}

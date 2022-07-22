@@ -1,0 +1,15 @@
+.header-container {
+    margin: 70px 20px;
+}
+.header{
+    max-width: 1024px;
+    margin: auto;
+    text-align: center;
+}
+.header .desc {
+    font-size: 1.2em;
+}
+.header .icon {
+    margin: 50px 0;
+    color: #6b6bc3;
+}

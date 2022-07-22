@@ -1,0 +1,84 @@
+.about-container{
+    border-bottom: 1px solid #d1d1d1;
+    padding-bottom: 100px;
+}
+.about-me {
+    background-color: #6b6bc3;
+    padding: 150px 20px 300px;
+}
+.about-me .intro{
+    text-align: center;
+    color: #fff;
+    width: 100%;
+    max-width: 600px;
+    margin: auto;
+}
+.intro .title{
+    font-size: 2em;
+    font-weight: 500;
+    margin-bottom: 20px;
+}
+.intro .desc{
+    line-height: 1.6;
+}
+.knowhow-container {
+    margin: -150px 20px 0;
+}
+.knowhow {
+    background-color: #fff;
+    max-width: 1024px;
+    margin: 0 auto 60px;
+    border-radius: 12px;
+    display: flex;
+    justify-content: center;
+    border: 1px solid #d1d1d1;
+}
+@media screen and (max-width: 830px) {
+    .knowhow {
+        flex-direction: column;
+    }
+}
+.knowhow .item  {
+    flex: 1;
+    text-align: center;
+    line-height: 1.6;
+    padding: 60px 20px;
+}
+@media screen and (max-width: 830px) {
+    .knowhow .item:not(:last-child) {
+        border-bottom: 1px solid #d1d1d1;
+    }
+}
+.knowhow .icon {
+    color: #6b6bc3;
+}
+.knowhow .title {
+    font-size: 1.2em;
+    font-weight: 500;
+    margin: 20px 0;
+}
+.tech-stack {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 600px;
+    margin: auto;
+    flex-wrap: wrap;
+    text-align: center;
+    gap: 20px;
+}
+.tech-stack li {
+    white-space: nowrap;
+}
+.tech-stack .icon {
+    color: #6b6bc3;
+}
+.stack-heading {
+    font-size: 1.2em;
+    font-weight: 500;
+    text-align: center;
+    margin: 40px 0 20px;
+}
