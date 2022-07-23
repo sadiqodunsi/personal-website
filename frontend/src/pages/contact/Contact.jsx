@@ -105,10 +105,10 @@ const Contact = () => {
         }
         { success && 
         <div className="form-submitted">
-          <FontAwesomeIcon className="icon" icon={faEnvelopeCircleCheck} size="6x" />
+          <FontAwesomeIcon className="icon" icon={faEnvelopeCircleCheck} size="5x" />
           <div className="title">Message received. Thanks!</div>
           <div className="sub">I'll get back to you shortly.</div>
-          <Link to="/" className="button">Back to home</Link>
+          <Link to="/" className="button">Go home</Link>
         </div>
         }
       </div>

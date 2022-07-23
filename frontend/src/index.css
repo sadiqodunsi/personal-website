@@ -46,14 +46,13 @@ input:focus, textarea:focus {
 }
 
 button, .button {
-  font-size: inherit;
   display: inline-block;
   color: #fff;
   background-color: #6b6bc3;
   border: 2px solid #6b6bc3;
-  border-radius: 5px;
-  padding: 18px 40px;
-  font-weight: 700;
+  border-radius: 20px;
+  padding: 10px 25px;
+  font-size: 1.2em;
 }
 
 button:hover, .button:hover{

@@ -1,0 +1,21 @@
+.not-found{
+    padding: 50px 20px 150px;
+    margin: auto;
+    max-width: 1024px;
+    text-align: center;
+}
+.not-found .icon{
+    color: #6b6bc3;
+}
+.not-found .sub{
+    font-size: 1.2em;
+    margin-bottom: 40px;
+}
+.not-found .button {
+    background-color: #fff;
+    color: #6b6bc3;
+}
+.not-found .button:hover {
+    color: #fff;
+    background-color: #6b6bc3;
+}

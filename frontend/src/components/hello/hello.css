@@ -11,7 +11,8 @@
 }
 .hello .title{
     font-size: 2em;
-    margin-bottom: 10px;
+    line-height: 1.4;
+    margin-bottom: 30px;
 }
 .hello .desc {
     font-size: 1.2em;
