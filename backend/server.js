@@ -26,7 +26,7 @@ app.post('/contact', (req, res) => {
     <p><b>Message:</b> ${message}</p>
     `;
 
-    // Create mail transport to sned emails
+    // Create mail transport to send emails
     let transporter = nodemailer.createTransport({
         host: process.env.SMTP_HOST,
         port: process.env.SMTP_PORT,
