@@ -21,6 +21,26 @@ const Projects = () => {
                 </figure>
                 <figure>
                     <div className="image">
+                        <img src="/images/jhareexpress.png" alt="Jhare Express" />
+                        <a href="https://jhareexpress.com/" target="_blank" rel="noreferrer">
+                            <div className="img-overlay">jhareexpress.com</div>
+                        </a>
+                    </div>
+                    <a href="https://jhareexpress.com" target="_blank" rel="noreferrer" className="title">Jhare Express</a>
+                    <figcaption>Built with React JS and WordPress Rest API. JHARE EXPRESS LLC handles shipping from the USA to Nigeria.</figcaption>
+                </figure>
+                <figure>
+                    <div className="image">
+                        <img src="/images/personal-website.jpg" alt="Personal website" />
+                        <a href="https://sadiqodunsi.com" target="_blank" rel="noreferrer">
+                            <div className="img-overlay">sadiqodunsi.com</div>
+                        </a>
+                    </div>
+                    <a href="https://sadiqodunsi.com" target="_blank" rel="noreferrer" className="title">Personal website</a>
+                    <figcaption>This is my awesome personal website. I built it with LOVE 😊, React and Node JS.</figcaption>
+                </figure>
+                <figure>
+                    <div className="image">
                         <img src="/images/wp-amazon-ses.jpg" alt="WP Amazon SES and SNS" />
                         <a href="https://github.com/sadiqodunsi/wp-amazon-ses" target="_blank" rel="noreferrer">
                             <div className="img-overlay">WP Amazon SES and SNS</div>
@@ -41,13 +61,13 @@ const Projects = () => {
                 </figure>
                 <figure>
                     <div className="image">
-                        <img src="/images/personal-website.jpg" alt="Personal website" />
-                        <a href="https://github.com/sadiqodunsi/personal-website" target="_blank" rel="noreferrer">
-                            <div className="img-overlay">sadiqodunsi.com</div>
+                        <img src="/images/wp-rest-jwt.jpg" alt="WP REST API JWT Auth" />
+                        <a href="https://github.com/sadiqodunsi/jwt-auth-wp-rest-api" target="_blank" rel="noreferrer">
+                            <div className="img-overlay">WP REST API JWT Auth</div>
                         </a>
                     </div>
-                    <a href="https://github.com/sadiqodunsi/personal-website" target="_blank" rel="noreferrer" className="title">Personal website</a>
-                    <figcaption>This is my awesome personal website. I built it with LOVE 😊, React and Node JS.</figcaption>
+                    <a href="https://github.com/sadiqodunsi/jwt-auth-wp-rest-api" target="_blank" rel="noreferrer" className="title">WP REST API JWT Auth</a>
+                    <figcaption>WP REST API JWT Auth plugin authenticates WP REST API requests using JSON Web Tokens Authentication and refresh token.</figcaption>
                 </figure>
             </div>
         </div>

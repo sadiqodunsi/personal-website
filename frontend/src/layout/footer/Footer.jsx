@@ -20,7 +20,7 @@ const Footer = () => {
                         <FontAwesomeIcon className="icon" icon={faInstagram} />
                     </a>
                 </div>
-                <div className="copyright">Copyright © 2022 Sadiq Odunsi</div>
+                <div className="copyright">Copyright © 2023 Sadiq Odunsi</div>
             </div>
         </div>
     );

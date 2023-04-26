@@ -37,6 +37,7 @@ const About = () => {
                 <li>JavaScript <FontAwesomeIcon className="icon" icon={faCheck} /></li>
                 <li>Node JS <FontAwesomeIcon className="icon" icon={faCheck} /></li>
                 <li>React JS <FontAwesomeIcon className="icon" icon={faCheck} /></li>
+                <li>Material-UI <FontAwesomeIcon className="icon" icon={faCheck} /></li>
                 <li>JQuery <FontAwesomeIcon className="icon" icon={faCheck} /></li>
                 <li>MongoDB <FontAwesomeIcon className="icon" icon={faCheck} /></li>
                 <li>MySQL <FontAwesomeIcon className="icon" icon={faCheck} /></li>
@@ -47,6 +48,7 @@ const About = () => {
             <ul className="tech-stack">
                 <li>Git  <FontAwesomeIcon className="icon" icon={faCheck} /></li>
                 <li>GitHub <FontAwesomeIcon className="icon" icon={faCheck} /></li>
+                <li>Bitbucket <FontAwesomeIcon className="icon" icon={faCheck} /></li>
             </ul>
         </div>
     </div>
