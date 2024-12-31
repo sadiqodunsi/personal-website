@@ -10,20 +10,20 @@ const About = () => {
         <div className="about-me">
             <div className="intro">
                 <div className="title">Hi, I'm Sadiq. Nice to meet you.</div>
-                <div className="desc">I'm a full stack web developer with 4 years of experience. I have an extensive knowledge in building WordPress websites as well as building websites from scratch using different tech stacks. My business background enables me to build customer centric websites that are easy to use and maintain.</div>
+                <div className="desc">I’m a full stack web developer with over 7 years of experience, specializing in JavaScript frameworks and libraries. I’m proficient in Node.js, React.js, Next.js, and TypeScript, with a strong background in building robust REST APIs and responsive front-end applications. Additionally, I bring extensive expertise in developing custom WordPress websites, delivering seamless and dynamic user experiences.</div>
             </div>
         </div>
         <div className="knowhow-container">
             <div className="knowhow">
-                <div className="item wordpress">
-                    <FontAwesomeIcon className="icon" icon={faWordpress} size="3x" />
-                    <div className="title">WordPress</div>
-                    <div className="desc">Highly proficient in building themes and plugins for WordPress.</div>
-                </div>
                 <div className="item fullstack">
                     <FontAwesomeIcon className="icon" icon={faScrewdriverWrench} size="3x" />
                     <div className="title">Full stack</div>
                     <div className="desc">I like to code things from scratch. I enjoy bringing ideas to life.</div>
+                </div>
+                <div className="item wordpress">
+                    <FontAwesomeIcon className="icon" icon={faWordpress} size="3x" />
+                    <div className="title">WordPress</div>
+                    <div className="desc">Highly proficient in building themes and plugins for WordPress.</div>
                 </div>
                 <div className="item seo">
                     <FontAwesomeIcon className="icon" icon={faSearchengin} size="3x" />
@@ -33,16 +33,21 @@ const About = () => {
             </div>
             <div className="stack-heading">Tech stacks</div>
             <ul className="tech-stack">
-                <li>PHP <FontAwesomeIcon className="icon" icon={faCheck} /></li>
                 <li>JavaScript <FontAwesomeIcon className="icon" icon={faCheck} /></li>
                 <li>Node JS <FontAwesomeIcon className="icon" icon={faCheck} /></li>
                 <li>React JS <FontAwesomeIcon className="icon" icon={faCheck} /></li>
-                <li>Material-UI <FontAwesomeIcon className="icon" icon={faCheck} /></li>
+                <li>Next JS <FontAwesomeIcon className="icon" icon={faCheck} /></li>
+                <li>PHP <FontAwesomeIcon className="icon" icon={faCheck} /></li>
+                <li>WordPress <FontAwesomeIcon className="icon" icon={faCheck} /></li>
                 <li>JQuery <FontAwesomeIcon className="icon" icon={faCheck} /></li>
+                <li>SQL <FontAwesomeIcon className="icon" icon={faCheck} /></li>
                 <li>MongoDB <FontAwesomeIcon className="icon" icon={faCheck} /></li>
-                <li>MySQL <FontAwesomeIcon className="icon" icon={faCheck} /></li>
-                <li>HTML <FontAwesomeIcon className="icon" icon={faCheck} /></li>
-                <li>CSS <FontAwesomeIcon className="icon" icon={faCheck} /></li>
+                <li>Tailwind CSS <FontAwesomeIcon className="icon" icon={faCheck} /></li>
+                <li>Material-UI <FontAwesomeIcon className="icon" icon={faCheck} /></li>
+                <li>CI/CD <FontAwesomeIcon className="icon" icon={faCheck} /></li>
+                <li>Linux <FontAwesomeIcon className="icon" icon={faCheck} /></li>
+                <li>AWS <FontAwesomeIcon className="icon" icon={faCheck} /></li>
+                <li>Technical SEO <FontAwesomeIcon className="icon" icon={faCheck} /></li>
             </ul>
             <div className="stack-heading">Tools</div>
             <ul className="tech-stack">

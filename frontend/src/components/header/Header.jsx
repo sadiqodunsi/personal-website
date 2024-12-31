@@ -6,8 +6,8 @@ const Header = () => {
   return (
     <div className="header-container">
         <div className="header">
-            <h1 className="title">Full stack developer & Business graduate</h1>
-            <p className="desc">I have a masters in business and I write beautiful code</p>
+            <h1 className="title">Full Stack Developer</h1>
+            <p className="desc">Crafting clean, efficient, and scalable code for modern web applications.</p>
             <FontAwesomeIcon className="icon" icon={faCode} size='6x' />
         </div>
     </div>

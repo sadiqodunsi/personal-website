@@ -11,6 +11,16 @@ const Projects = () => {
             <div className="project-list">
                 <figure>
                     <div className="image">
+                        <img src="/images/bng.jpg" alt="Business Name Generator" />
+                        <a href="https://businessnamegenerator.com" target="_blank" rel="noreferrer">
+                            <div className="img-overlay">businessnamegenerator.com</div>
+                        </a>
+                    </div>
+                    <a href="https://businessnamegenerator.com" target="_blank" rel="noreferrer" className="title">Business Name Generator</a>
+                    <figcaption>AI-powered brandable business name generator and instant domain availability checker.</figcaption>
+                </figure>
+                <figure>
+                    <div className="image">
                         <img src="/images/viscorner-homepage.jpg" alt="VisCorner" />
                         <a href="https://viscorner.com" target="_blank" rel="noreferrer">
                             <div className="img-overlay">viscorner.com</div>
@@ -58,16 +68,6 @@ const Projects = () => {
                     </div>
                     <a href="https://github.com/sadiqodunsi/wc-paystack" target="_blank" rel="noreferrer" className="title">WC Paystack</a>
                     <figcaption>WooCommerce Paystack plugin bypasses the default WooCommerce checkout process to enable direct payment.</figcaption>
-                </figure>
-                <figure>
-                    <div className="image">
-                        <img src="/images/wp-rest-jwt.jpg" alt="WP REST API JWT Auth" />
-                        <a href="https://github.com/sadiqodunsi/jwt-auth-wp-rest-api" target="_blank" rel="noreferrer">
-                            <div className="img-overlay">WP REST API JWT Auth</div>
-                        </a>
-                    </div>
-                    <a href="https://github.com/sadiqodunsi/jwt-auth-wp-rest-api" target="_blank" rel="noreferrer" className="title">WP REST API JWT Auth</a>
-                    <figcaption>WP REST API JWT Auth plugin authenticates WP REST API requests using JSON Web Tokens Authentication and refresh token.</figcaption>
                 </figure>
             </div>
         </div>
