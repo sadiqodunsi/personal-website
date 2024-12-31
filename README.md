@@ -1,5 +1,5 @@
 # Personal website
-My personal website built with React and Node JS
+Personal website built with React and Node JS
 
 # Usage
 
