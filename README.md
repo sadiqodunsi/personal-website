@@ -34,7 +34,6 @@ Add a .env file to the root of the frontend folder with the following info:
 
 ```
 REACT_APP_SITE_TITLE = // Your website title
-REACT_APP_SITE_URL = // Your website url
 ```
 
 And that's it!
